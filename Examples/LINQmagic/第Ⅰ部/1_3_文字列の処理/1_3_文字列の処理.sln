@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_3_5_文字列を反転する", "S1_3_5_文字列を反転する\S1_3_5_文字列を反転する.csproj", "{B26B0EC4-9CDB-463E-AEA4-32FF5522FEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_3_2_文字数をカウントする", "S1_3_2_文字数をカウントする\S1_3_2_文字数をカウントする.csproj", "{ECA80719-FFEA-4610-A9BA-D74E3717BEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_3_3_CSVファイルから必要なデータだけを取り出す", "S1_3_3_CSVファイルから必要なデータだけを取り出す\S1_3_3_CSVファイルから必要なデータだけを取り出す.csproj", "{13F0243D-FAA9-4172-A975-4F12AD1BAFC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_3_1_準備", "S1_3_1_準備\S1_3_1_準備.csproj", "{4D0285C7-3E97-41EF-8821-11D381FDA98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_3_4_文字列コレクションを検索する", "S1_3_4_文字列コレクションを検索する\S1_3_4_文字列コレクションを検索する.csproj", "{3C232F68-6CBC-4CE1-9BDF-DDC33A1666D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_3_6_文字列コレクションで複雑な検索をする", "S1_3_6_文字列コレクションで複雑な検索をする\S1_3_6_文字列コレクションで複雑な検索をする.csproj", "{D6226579-0742-4098-B91E-218BB58B6507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B26B0EC4-9CDB-463E-AEA4-32FF5522FEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26B0EC4-9CDB-463E-AEA4-32FF5522FEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26B0EC4-9CDB-463E-AEA4-32FF5522FEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26B0EC4-9CDB-463E-AEA4-32FF5522FEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA80719-FFEA-4610-A9BA-D74E3717BEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA80719-FFEA-4610-A9BA-D74E3717BEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA80719-FFEA-4610-A9BA-D74E3717BEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA80719-FFEA-4610-A9BA-D74E3717BEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F0243D-FAA9-4172-A975-4F12AD1BAFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F0243D-FAA9-4172-A975-4F12AD1BAFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F0243D-FAA9-4172-A975-4F12AD1BAFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F0243D-FAA9-4172-A975-4F12AD1BAFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0285C7-3E97-41EF-8821-11D381FDA98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0285C7-3E97-41EF-8821-11D381FDA98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0285C7-3E97-41EF-8821-11D381FDA98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0285C7-3E97-41EF-8821-11D381FDA98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C232F68-6CBC-4CE1-9BDF-DDC33A1666D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C232F68-6CBC-4CE1-9BDF-DDC33A1666D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C232F68-6CBC-4CE1-9BDF-DDC33A1666D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C232F68-6CBC-4CE1-9BDF-DDC33A1666D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6226579-0742-4098-B91E-218BB58B6507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6226579-0742-4098-B91E-218BB58B6507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6226579-0742-4098-B91E-218BB58B6507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6226579-0742-4098-B91E-218BB58B6507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_5_1_varキーワード", "S2_5_1_varキーワード\S2_5_1_varキーワード.csproj", "{362F4534-FD34-4963-B9CA-2128DAA0256C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_5_3_匿名型", "S2_5_3_匿名型\S2_5_3_匿名型.csproj", "{187944E3-8099-490C-A338-D181CC4F395C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_5_5_オブジェクト初期化子", "S2_5_5_オブジェクト初期化子\S2_5_5_オブジェクト初期化子.csproj", "{C9D5A9B2-E16F-4B08-93C8-F8C5C3189511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_5_6_コレクション初期化子", "S2_5_6_コレクション初期化子\S2_5_6_コレクション初期化子.csproj", "{10B588E2-8A0A-46D3-9082-E17C4A57FEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_5_7_配列宣言の型省略", "S2_5_7_配列宣言の型省略\S2_5_7_配列宣言の型省略.csproj", "{2F6C3459-EB7D-44F5-8A24-48F1EA7A63FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_5_8_自動実装プロパティ", "S2_5_8_自動実装プロパティ\S2_5_8_自動実装プロパティ.csproj", "{22E96030-EE67-4F1C-9426-F96F81DDDD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_5_9_パーシャルメソッド", "S2_5_9_パーシャルメソッド\S2_5_9_パーシャルメソッド.csproj", "{E52EC74E-3F13-440C-9D5C-D5E69FBCECFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{362F4534-FD34-4963-B9CA-2128DAA0256C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362F4534-FD34-4963-B9CA-2128DAA0256C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362F4534-FD34-4963-B9CA-2128DAA0256C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362F4534-FD34-4963-B9CA-2128DAA0256C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187944E3-8099-490C-A338-D181CC4F395C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187944E3-8099-490C-A338-D181CC4F395C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187944E3-8099-490C-A338-D181CC4F395C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187944E3-8099-490C-A338-D181CC4F395C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D5A9B2-E16F-4B08-93C8-F8C5C3189511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D5A9B2-E16F-4B08-93C8-F8C5C3189511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D5A9B2-E16F-4B08-93C8-F8C5C3189511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D5A9B2-E16F-4B08-93C8-F8C5C3189511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B588E2-8A0A-46D3-9082-E17C4A57FEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B588E2-8A0A-46D3-9082-E17C4A57FEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B588E2-8A0A-46D3-9082-E17C4A57FEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B588E2-8A0A-46D3-9082-E17C4A57FEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6C3459-EB7D-44F5-8A24-48F1EA7A63FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6C3459-EB7D-44F5-8A24-48F1EA7A63FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6C3459-EB7D-44F5-8A24-48F1EA7A63FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6C3459-EB7D-44F5-8A24-48F1EA7A63FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E96030-EE67-4F1C-9426-F96F81DDDD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E96030-EE67-4F1C-9426-F96F81DDDD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E96030-EE67-4F1C-9426-F96F81DDDD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E96030-EE67-4F1C-9426-F96F81DDDD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52EC74E-3F13-440C-9D5C-D5E69FBCECFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52EC74E-3F13-440C-9D5C-D5E69FBCECFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52EC74E-3F13-440C-9D5C-D5E69FBCECFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52EC74E-3F13-440C-9D5C-D5E69FBCECFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

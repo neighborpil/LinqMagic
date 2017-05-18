@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>linq.js sample</title>
+  <link rel="stylesheet" href="app.css" type="text/css" />
+  <script type="text/javascript" src="./Scripts/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="./Scripts/linq.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#content").append("<span>Enumerable.range</span><br />")
+      sample01();
+
+      $("#content").append("<br /><span>JSON</span><br />")
+      sample02();
+    });
+
+    // 1～10の整数から、偶数を取り出して二乗する
+    function sample01() {
+      var results
+        = Enumerable
+            .range(1, 10)
+            .where(function (n) { return n % 2 == 0 })
+            .select(function (n) { return n * n })
+            .toArray();
+
+      results.forEach(function (n) {
+        $("#content").append(n.toString() + "<br />")
+      });
+    }
+
+    // JSONデータをそのまま扱える
+    function sample02() {
+      var jsonArray = [
+        {
+          "user": { "id": 100, "screen_name": "d_linq" },
+          "text": "to objects"
+        },
+        {
+          "user": { "id": 130, "screen_name": "c_bill" },
+          "text": "g"
+        },
+        {
+          "user": { "id": 155, "screen_name": "b_mskk" },
+          "text": "kabushiki kaisha"
+        },
+        {
+          "user": { "id": 301, "screen_name": "a_xbox" },
+          "text": "halo reach"
+        }
+      ]
+      var results
+        = Enumerable
+          .from(jsonArray)
+          .where(function (x) { return x.user.id < 200 })
+          .orderBy(function (x) { return x.user.screen_name })
+          .toArray();
+
+      results.forEach(function (x) {
+        $("#content")
+          .append(x.user.screen_name + ':' + x.text + "<br />");
+      });
+    }
+  </script>
+</head>
+<body>
+  <h1>linq.js sample</h1>
+  <div id="content"></div>
+</body>
+</html>

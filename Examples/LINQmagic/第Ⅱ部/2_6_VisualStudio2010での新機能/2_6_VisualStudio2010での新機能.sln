@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_6_1_省略可能な引数", "S2_6_1_省略可能な引数\S2_6_1_省略可能な引数.csproj", "{EEFA0F7E-CEF6-4321-919A-CD475359C51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_6_2_名前付き引数", "S2_6_2_名前付き引数\S2_6_2_名前付き引数.csproj", "{E331E5F0-B6C8-4220-A87A-05A38FD87927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_6_3_共変性と反変性", "S2_6_3_共変性と反変性\S2_6_3_共変性と反変性.csproj", "{CF6518C7-D6EF-4E41-A40A-97800725615D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2_6_4_PLINQ", "S2_6_4_PLINQ\S2_6_4_PLINQ.csproj", "{417C1A2E-50D2-4F96-9E95-F29A050D8A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEFA0F7E-CEF6-4321-919A-CD475359C51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFA0F7E-CEF6-4321-919A-CD475359C51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFA0F7E-CEF6-4321-919A-CD475359C51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFA0F7E-CEF6-4321-919A-CD475359C51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E331E5F0-B6C8-4220-A87A-05A38FD87927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E331E5F0-B6C8-4220-A87A-05A38FD87927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E331E5F0-B6C8-4220-A87A-05A38FD87927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E331E5F0-B6C8-4220-A87A-05A38FD87927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6518C7-D6EF-4E41-A40A-97800725615D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6518C7-D6EF-4E41-A40A-97800725615D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6518C7-D6EF-4E41-A40A-97800725615D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6518C7-D6EF-4E41-A40A-97800725615D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417C1A2E-50D2-4F96-9E95-F29A050D8A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417C1A2E-50D2-4F96-9E95-F29A050D8A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417C1A2E-50D2-4F96-9E95-F29A050D8A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417C1A2E-50D2-4F96-9E95-F29A050D8A88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

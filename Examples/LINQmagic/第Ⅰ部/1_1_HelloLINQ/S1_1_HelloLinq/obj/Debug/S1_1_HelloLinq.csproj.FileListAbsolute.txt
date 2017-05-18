@@ -1,0 +1,9 @@
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\bin\Debug\S1_1_HelloLinq.exe.config
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\bin\Debug\S1_1_HelloLinq.exe
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\bin\Debug\S1_1_HelloLinq.pdb
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.csprojResolveAssemblyReference.cache
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\HelloLinq.Form1.resources
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.Properties.Resources.resources
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.csproj.GenerateResource.Cache
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.exe
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.pdb

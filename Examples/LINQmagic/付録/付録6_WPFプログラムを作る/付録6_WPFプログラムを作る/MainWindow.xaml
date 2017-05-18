@@ -1,0 +1,31 @@
+﻿<Window x:Class="付録6_WPFプログラム.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:付録6_WPFプログラム"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        MinWidth="240" MinHeight="200" >
+  <Grid>
+    <!-- Gridを上下に2分割 -->
+    <Grid.RowDefinitions>
+      <RowDefinition/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+
+    <!-- 文字列を表示するTextBlockコントロール -->
+    <TextBlock x:Name="textBlock1" Text="こんにちは!" 
+               FontSize="36" 
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               />
+
+    <!-- Buttonコントロール -->
+    <Button Grid.Row="1" Content="現在時刻"
+            FontSize="24"
+            HorizontalAlignment="Center"
+            Margin="0,0,0,16" Padding="8,0,8,0"
+            Click="Button_Click"
+            />
+  </Grid>
+</Window>

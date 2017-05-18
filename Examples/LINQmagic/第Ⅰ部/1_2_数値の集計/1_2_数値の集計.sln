@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_2_1_準備", "S1_2_1_準備\S1_2_1_準備.csproj", "{A5151B60-61C3-4960-B31B-BB2A3AB98D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_2_2_すべてを合計する", "S1_2_2_すべてを合計する\S1_2_2_すべてを合計する.csproj", "{16BA0556-EEFA-4CB1-A3EA-E91F52FB4234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_2_3_条件を満たす数値だけを取り出す", "S1_2_3_条件を満たす数値だけを取り出す\S1_2_3_条件を満たす数値だけを取り出す.csproj", "{4CDCBF52-1398-4E14-9BC6-CEEA220581D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_2_4_条件を満たす数値だけを合計する", "S1_2_4_条件を満たす数値だけを合計する\S1_2_4_条件を満たす数値だけを合計する.csproj", "{D664FEE4-7E92-4561-8CD1-33CBA20DB4AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_2_5_メモリー消費を確かめる", "S1_2_5_メモリー消費を確かめる\S1_2_5_メモリー消費を確かめる.csproj", "{F2C03D8F-E745-417B-B6FF-B20C855FD65A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S1_2_6_nullを含むデータを処理する", "S1_2_6_nullを含むデータを処理する\S1_2_6_nullを含むデータを処理する.csproj", "{F9F39888-DE0B-48B5-85FC-533B1A3FAA1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5151B60-61C3-4960-B31B-BB2A3AB98D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5151B60-61C3-4960-B31B-BB2A3AB98D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5151B60-61C3-4960-B31B-BB2A3AB98D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5151B60-61C3-4960-B31B-BB2A3AB98D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BA0556-EEFA-4CB1-A3EA-E91F52FB4234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BA0556-EEFA-4CB1-A3EA-E91F52FB4234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BA0556-EEFA-4CB1-A3EA-E91F52FB4234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BA0556-EEFA-4CB1-A3EA-E91F52FB4234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDCBF52-1398-4E14-9BC6-CEEA220581D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDCBF52-1398-4E14-9BC6-CEEA220581D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDCBF52-1398-4E14-9BC6-CEEA220581D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDCBF52-1398-4E14-9BC6-CEEA220581D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D664FEE4-7E92-4561-8CD1-33CBA20DB4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D664FEE4-7E92-4561-8CD1-33CBA20DB4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D664FEE4-7E92-4561-8CD1-33CBA20DB4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D664FEE4-7E92-4561-8CD1-33CBA20DB4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C03D8F-E745-417B-B6FF-B20C855FD65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C03D8F-E745-417B-B6FF-B20C855FD65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C03D8F-E745-417B-B6FF-B20C855FD65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C03D8F-E745-417B-B6FF-B20C855FD65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F39888-DE0B-48B5-85FC-533B1A3FAA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F39888-DE0B-48B5-85FC-533B1A3FAA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F39888-DE0B-48B5-85FC-533B1A3FAA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F39888-DE0B-48B5-85FC-533B1A3FAA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

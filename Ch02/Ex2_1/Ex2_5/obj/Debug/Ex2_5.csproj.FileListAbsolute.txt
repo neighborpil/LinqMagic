@@ -4,3 +4,9 @@ C:\Study\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\bin\Debug\Ex2_5.pdb
 C:\Study\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\obj\Debug\Ex2_5.csprojResolveAssemblyReference.cache
 C:\Study\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\obj\Debug\Ex2_5.exe
 C:\Study\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\obj\Debug\Ex2_5.pdb
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\bin\Debug\Ex2_5.exe.config
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\obj\Debug\Ex2_5.exe
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\obj\Debug\Ex2_5.pdb
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\bin\Debug\Ex2_5.exe
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\bin\Debug\Ex2_5.pdb
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_5\obj\Debug\Ex2_5.csprojResolveAssemblyReference.cache

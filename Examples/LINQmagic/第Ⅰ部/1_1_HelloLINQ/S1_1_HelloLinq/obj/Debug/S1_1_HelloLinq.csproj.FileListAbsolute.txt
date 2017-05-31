@@ -7,3 +7,6 @@ C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq
 C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.csproj.GenerateResource.Cache
 C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.exe
 C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.pdb
+C:\[Codes]\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\bin\Debug\S1_1_HelloLinq.exe.config
+C:\[Codes]\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.exe
+C:\[Codes]\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_1_HelloLINQ\S1_1_HelloLinq\obj\Debug\S1_1_HelloLinq.pdb

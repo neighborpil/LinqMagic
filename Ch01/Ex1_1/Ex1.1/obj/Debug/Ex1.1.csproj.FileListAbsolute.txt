@@ -1,0 +1,9 @@
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\bin\Debug\Ex1.1.exe.config
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\obj\Debug\Ex1.1.csprojResolveAssemblyReference.cache
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\obj\Debug\Ex1._1.Properties.Resources.resources
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\obj\Debug\Ex1.1.csproj.GenerateResource.Cache
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\bin\Debug\Ex1.1.exe
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\bin\Debug\Ex1.1.pdb
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\obj\Debug\Ex1.1.exe
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\obj\Debug\Ex1.1.pdb
+C:\[Codes]\Git\LinqMagic\Ch01\Ex1.1\Ex1.1\obj\Debug\Ex1._1.Form1.resources

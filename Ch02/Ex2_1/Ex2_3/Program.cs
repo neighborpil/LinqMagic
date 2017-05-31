@@ -18,6 +18,10 @@ namespace Ex2_3
             WriteNumbers(numbers, "정수");
             WriteNumbers(results, "짝수");
 
+            var sum = results.Sum();
+
+            WriteLine($"{sum}");
+
 
 #if DEBUG
             ReadKey();

@@ -1,0 +1,5 @@
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_2\bin\Debug\Ex2_2.exe.config
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_2\bin\Debug\Ex2_2.exe
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_2\bin\Debug\Ex2_2.pdb
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_2\obj\Debug\Ex2_2.exe
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_2\obj\Debug\Ex2_2.pdb

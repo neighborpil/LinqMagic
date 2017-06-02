@@ -1,0 +1,6 @@
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_19\bin\Debug\Ex2_19.exe.config
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_19\bin\Debug\Ex2_19.exe
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_19\bin\Debug\Ex2_19.pdb
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_19\obj\Debug\Ex2_19.csprojResolveAssemblyReference.cache
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_19\obj\Debug\Ex2_19.exe
+C:\[Codes]\Git\LinqMagic\Ch02\Ex2_1\Ex2_19\obj\Debug\Ex2_19.pdb

@@ -1,0 +1,6 @@
+C:\[Codes]\Git\LinqMagic\CH03\Ex3_2\bin\Debug\Ex3_2.exe.config
+C:\[Codes]\Git\LinqMagic\CH03\Ex3_2\bin\Debug\Ex3_2.exe
+C:\[Codes]\Git\LinqMagic\CH03\Ex3_2\bin\Debug\Ex3_2.pdb
+C:\[Codes]\Git\LinqMagic\CH03\Ex3_2\obj\Debug\Ex3_2.csprojResolveAssemblyReference.cache
+C:\[Codes]\Git\LinqMagic\CH03\Ex3_2\obj\Debug\Ex3_2.exe
+C:\[Codes]\Git\LinqMagic\CH03\Ex3_2\obj\Debug\Ex3_2.pdb

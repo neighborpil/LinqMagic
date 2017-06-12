@@ -1,0 +1,1 @@
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\bin\Debug\Ex4_1.exe.config

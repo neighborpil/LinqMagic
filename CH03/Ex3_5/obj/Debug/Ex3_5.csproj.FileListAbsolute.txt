@@ -3,3 +3,6 @@ C:\[Codes]\Git\LinqMagic\CH03\Ex3_5\bin\Debug\Ex3_5.exe
 C:\[Codes]\Git\LinqMagic\CH03\Ex3_5\bin\Debug\Ex3_5.pdb
 C:\[Codes]\Git\LinqMagic\CH03\Ex3_5\obj\Debug\Ex3_5.exe
 C:\[Codes]\Git\LinqMagic\CH03\Ex3_5\obj\Debug\Ex3_5.pdb
+C:\Study\Git\LinqMagic\CH03\Ex3_5\bin\Debug\Ex3_5.exe.config
+C:\Study\Git\LinqMagic\CH03\Ex3_5\obj\Debug\Ex3_5.exe
+C:\Study\Git\LinqMagic\CH03\Ex3_5\obj\Debug\Ex3_5.pdb

@@ -24,5 +24,41 @@ namespace Ex4_1
         {
             InitializeComponent();
         }
+        
+        #region イベントハンドラー
+
+        /// <summary>
+        /// ウィンドウが表示されるとき
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+            StoreControls();
+        }
+        
+        private void ToggleButton_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        // UIコントロールをListコレクションに入れて管理する
+        private List<Button> _buttons;
+        private List<RadioButton> _radioButtons;
+
+        private void StoreControls()
+        {
+            // このウィンドウが持っているすべてのButtonことロール
+            _buttons = this.Descendants<Button>().ToList();
+
+            
+        }
+
+        #endregion
     }
 }

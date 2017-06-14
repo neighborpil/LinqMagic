@@ -56,12 +56,41 @@
                             <Setter Property="TextBlock.FontSize" Value="24" />
                             <Setter Property="VerticalContentAlignment" Value="Center" />
                         </Style>
-                        
-                    </StackPanel.Resources>                            
-                    
+                        <Style TargetType="Button">
+                            <Setter Property="HorizontalAlignment" Value="Center" />
+                            <Setter Property="Padding" Value="16, 4" />
+                            <Setter Property="Margin" Value="0,8,0,0" />
+                            <Setter Property="Background" Value="DarkRed" />
+                            <Setter Property="Foreground" Value="White" />
+                            <Setter Property="FontSize" Value="16" />
+                        </Style> 
+                    </StackPanel.Resources>
+                    <RadioButton GroupName="group1" Tag="radio0">ラジオボタン【1】</RadioButton>
+                    <RadioButton GroupName="group1" Tag="radio1">ラジオボタン【2】</RadioButton>
+                    <RadioButton GroupName="group1" Tag="radio2">ラジオボタン【3】</RadioButton>
+                    <Button Content="ボタン【右1】" />
+                    <Button Content="ボタン【右2】" />
                 </StackPanel>
             </Grid>
         </ScrollViewer>
-                      
+        
+        <!-- 下部の操作パネル -->
+        <Border Grid.Row="1" Grid.ColumnSpan="2" Background="#eef8ff"
+                BorderBrush="DarkGray" BorderThickness="4" Margin="0,16,0,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <ToggleButton Checked="ToggleButton_Checked"
+                              Unchecked="ToggleButton_Unchecked"
+                              IsChecked="True"
+                              Content="UI有効 / 無効"
+                              VerticalAlignment="Center"
+                              Margin="0,0,8,0" Padding="8,0" />
+                <ListBox SelectionChanged="ListBox_SelectionChanged"
+                         VerticalAlignment="Center" Margin="8,8,0,8">
+                    <ListBoxItem Content="ラジオボタン【1】" Tag="radio0" />
+                    <ListBoxItem Content="ラジオボタン【2】" Tag="radio1" />
+                    <ListBoxItem Content="ラジオボタン【3】" Tag="radio2" />
+                </ListBox>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>

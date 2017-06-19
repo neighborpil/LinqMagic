@@ -1,1 +1,14 @@
 C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\bin\Debug\Ex4_1.exe.config
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\bin\Debug\Ex4_1.exe
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\bin\Debug\Ex4_1.pdb
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1.csprojResolveAssemblyReference.cache
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\MainWindow.g.cs
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\App.g.cs
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1_MarkupCompile.cache
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1_MarkupCompile.lref
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\MainWindow.baml
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1.g.resources
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1.Properties.Resources.resources
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1.csproj.GenerateResource.Cache
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1.exe
+C:\Study\Git\LinqMagic\CH04\CH04_Examples\Ex4_1\obj\Debug\Ex4_1.pdb

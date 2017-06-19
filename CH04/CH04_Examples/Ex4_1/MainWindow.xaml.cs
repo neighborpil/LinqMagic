@@ -24,27 +24,44 @@ namespace Ex4_1
         {
             InitializeComponent();
         }
-        
+
         #region イベントハンドラー
+
 
         /// <summary>
         /// ウィンドウが表示されるとき
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             StoreControls();
         }
         
-        private void ToggleButton_Unchecked(object sender, RoutedEventArgs e)
+        // [UIの有効 / 無効] ボタンがONになったとき 
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
         {
-
+            // ボタンがONになった　→　すべてのボタンを有効にする
+            _buttons?.ForEach(b => b.IsEnabled = true);
+            _radioButtons?.ForEach(b => b.IsEnabled = true);
         }
 
+        // [UIの有効 / 無効] ボタンがOFFになったとき
+        private void ToggleButton_Unchecked(object sender, RoutedEventArgs e)
+        {
+            // ボタンがOFFになった　→　すべてのボタンを無効にする
+            _buttons?.ForEach(b => b.IsEnabled = false);
+            _radioButtons?.ForEach(b => b.IsEnabled = false);
+        }
+
+        /// <summary>
+        /// リストボックスの選択が変わったとき
+        /// </summary>
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            // 選択されたリスト項目のTagプロパティ
+            object tag = (e.AddedItems[0] as ListBoxItem).Tag;
 
+            //ラジオボタンを選択する
+            _radioButtons.ForEach(r => r.IsChecked = object.Equals(r.Tag, tag));
         }
 
         // UIコントロールをListコレクションに入れて管理する
@@ -53,10 +70,11 @@ namespace Ex4_1
 
         private void StoreControls()
         {
-            // このウィンドウが持っているすべてのButtonことロール
+            // このウィンドウが持っているすべてのButtonコントロール
             _buttons = this.Descendants<Button>().ToList();
 
-            
+            // このウィンドウが持っているすべてのRadioButtonコントロール
+            _radioButtons = this.Descendants<RadioButton>().ToList();            
         }
 
         #endregion

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,12 @@ namespace Ex5_1
         public int Value { get; set; }
     }
 
+    
     public static class SampleExtensions
     {
+        /// <summary>
+        /// LINQ의 Sum메소드의 내부 동작 메소드
+        /// </summary>
         public static int SumValues(this IEnumerable<Sample> samples)
         {
             WriteLine("※SumValues開始");
@@ -49,8 +54,32 @@ namespace Ex5_1
             };
         }
 
+        /// <summary>
+        /// 데이터의 종류가 A인지 판정
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        static bool IsKindA(Sample s)
+        {
+            bool isKindA = s.Kind == "A";
+            WriteLine($"[2] Where : {s.Kind}, {s.Value}, ({isKindA})");
+            return isKindA;
+        }
         static void Main(string[] args)
         {
+            //「Sample.cv」　ファイルから一行づつ最後まで読み込む
+            IEnumerable<string> lines = File.ReadLines(@".\sample.csv");
+            WriteLine("※ReadLine 完了");
+
+
+            // CSVファイルの各行からSampleオブジェクトを作る
+            IEnumerable<Sample> samples = lines.Select(line => CreateFromCsvLine(line)); //->「[1] Select : ...」
+            WriteLine("※Select 完了");
+
+
+#if DEBUG
+            ReadKey();
+#endif
         }
     }
 }

@@ -50,7 +50,7 @@ namespace Ex5_1
             return new Sample()
             {
                 Kind = items[0].Trim(),
-                Value = int.Parse(items[1].Trim())
+                Value = int.Parse(items[1].Trim()),
             };
         }
 
@@ -76,7 +76,13 @@ namespace Ex5_1
             IEnumerable<Sample> samples = lines.Select(line => CreateFromCsvLine(line)); //->「[1] Select : ...」
             WriteLine("※Select 完了");
 
+            // Kindが「A」のデータだけを抜き出す
+            IEnumerable<Sample> selectedA = samples.Where(s => IsKindA(s)); // => 「[2] Where : ...」
 
+            // Valueを合計する
+            int sumA = selectedA.SumValues(); // => 「[3] Sum : ...」
+
+            WriteLine($"Aだけの合計は{sumA}");
 #if DEBUG
             ReadKey();
 #endif

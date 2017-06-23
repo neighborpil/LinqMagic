@@ -82,7 +82,29 @@ namespace Ex5_1
             // Valueを合計する
             int sumA = selectedA.SumValues(); // => 「[3] Sum : ...」
 
-            WriteLine($"Aだけの合計は{sumA}");
+            WriteLine("※Sum完了");
+
+            WriteLine($"A だけの合計は{sumA}");
+
+
+            // 続けて、Kindが「B]のデータだけを抜き出して合計する
+            // 上で作られたsamplesコレクションを使うので
+            // CreateFromCsvLineメソッドはもう呼ばれないように思えるが...
+
+            WriteLine();
+            WriteLine("残りのデータも合計する");
+
+            // Kindが「A」ではないデータだけを抜き出す
+            IEnumerable<Sample> selectedB = samples.Where(s => !IsKindA(s));
+            WriteLine("※Where完了");
+
+            //　Valueを合計する
+            int sumB = selectedB.SumValues();
+
+            WriteLine("※Sum完了");
+
+            WriteLine($"B だけの合計は{sumB}");
+
 #if DEBUG
             ReadKey();
 #endif

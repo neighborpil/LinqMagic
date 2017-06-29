@@ -1,0 +1,6 @@
+C:\[Codes]\Git\LinqMagic\CH10\CH10Exs\List10_6\bin\Debug\List10_6.exe.config
+C:\[Codes]\Git\LinqMagic\CH10\CH10Exs\List10_6\bin\Debug\List10_6.exe
+C:\[Codes]\Git\LinqMagic\CH10\CH10Exs\List10_6\bin\Debug\List10_6.pdb
+C:\[Codes]\Git\LinqMagic\CH10\CH10Exs\List10_6\obj\Debug\List10_6.csprojResolveAssemblyReference.cache
+C:\[Codes]\Git\LinqMagic\CH10\CH10Exs\List10_6\obj\Debug\List10_6.exe
+C:\[Codes]\Git\LinqMagic\CH10\CH10Exs\List10_6\obj\Debug\List10_6.pdb

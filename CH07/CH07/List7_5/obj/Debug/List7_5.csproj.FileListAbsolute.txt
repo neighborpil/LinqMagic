@@ -1,0 +1,7 @@
+C:\[Codes]\Git\LinqMagic\CH07\CH07\List7_5\bin\Debug\List7_5.exe.config
+C:\[Codes]\Git\LinqMagic\CH07\CH07\List7_5\bin\Debug\List7_5.exe
+C:\[Codes]\Git\LinqMagic\CH07\CH07\List7_5\bin\Debug\List7_5.pdb
+C:\[Codes]\Git\LinqMagic\CH07\CH07\List7_5\obj\Debug\List7_5.csprojResolveAssemblyReference.cache
+C:\[Codes]\Git\LinqMagic\CH07\CH07\List7_5\obj\Debug\List7_5.exe
+C:\[Codes]\Git\LinqMagic\CH07\CH07\List7_5\obj\Debug\List7_5.pdb
+C:\[Codes]\Git\LinqMagic\CH07\CH07\List7_5\bin\Debug\sample.csv

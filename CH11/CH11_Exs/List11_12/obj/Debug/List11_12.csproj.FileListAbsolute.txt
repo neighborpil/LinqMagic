@@ -1,0 +1,7 @@
+C:\Study\Git\LinqMagic\CH11\CH11_Exs\List11_12\bin\Debug\List11_12.exe.config
+C:\Study\Git\LinqMagic\CH11\CH11_Exs\List11_12\bin\Debug\sample.csv
+C:\Study\Git\LinqMagic\CH11\CH11_Exs\List11_12\bin\Debug\List11_12.exe
+C:\Study\Git\LinqMagic\CH11\CH11_Exs\List11_12\bin\Debug\List11_12.pdb
+C:\Study\Git\LinqMagic\CH11\CH11_Exs\List11_12\obj\Debug\List11_12.csprojResolveAssemblyReference.cache
+C:\Study\Git\LinqMagic\CH11\CH11_Exs\List11_12\obj\Debug\List11_12.exe
+C:\Study\Git\LinqMagic\CH11\CH11_Exs\List11_12\obj\Debug\List11_12.pdb

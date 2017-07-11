@@ -1,0 +1,1 @@
+C:\Study\Git\LinqMagic\Examples\LINQmagic\第Ⅰ部\1_12_LINQプロバイダーの作り方\S1_12_LINQプロバイダーの作り方\bin\Debug\S1_12_LINQプロバイダーの作り方.exe.config

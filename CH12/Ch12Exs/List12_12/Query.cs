@@ -38,7 +38,9 @@ namespace List12_12
 
         Type IQueryable.ElementType => typeof(T);
 
-        public IEnumerable<T> GetEnumerator() => ((IEnumerable<T>)this.provider.Execute(this.expression)).GetEnumerator();
+        IQueryProvider IQueryable.Provider => this.provider;
+
+        public IEnumerator<T> GetEnumerator() => ((IEnumerable<T>)this.provider.Execute(this.expression)).GetEnumerator();
 
         IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable)this.provider.Execute(this.expression)).GetEnumerator();
 

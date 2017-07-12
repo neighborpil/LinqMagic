@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -20,7 +21,7 @@ namespace List12_12
     /// LINQ Provider
     /// IQueryProvider의 구현
     /// </summary>
-    class SampleQueryProvider
+    class SampleQueryProvider : AbstractQueryProvider
     {
         /// <summary>
         /// 추상메소드 구현
@@ -37,7 +38,7 @@ namespace List12_12
             string KindFilter = visitor.KindFilter;
 
             // CSV파일을 읽어들이면서, Sample객체를 생성하여 반환한다
-            return ReadSampleCsvFile(KindFilter).AsQuerable();
+            return ReadSampleCsvFile(KindFilter).AsQueryable();
         }
 
         public override string GetQueryText(Expression exp)
@@ -64,5 +65,38 @@ namespace List12_12
 
         private string _csvFilePath;
 
+        // 파일을 읽어들여, Sample 객체를 열거하는 메소드
+        private IEnumerable<Sample> ReadSampleCsvFile(string kindFilter)
+        {
+            // 검증용
+            Console.WriteLine("ReadSampleCsvFile 메소드 시작");
+
+            bool checkKind = (kindFilter != null);
+
+            // 한행씩 읽어들여 루프를 돌린다
+            foreach (var line in File.ReadLines(_csvFilePath))
+            {
+                //검증용
+                Console.WriteLine($"Read : {line}");
+
+                //콤마로 분해한다
+                string[] data = line.Split(',');
+
+                //데이터의 Kind를 체크한다
+                string kind = data[0].Trim(); //체크하기 직전에 트림
+                if (checkKind && kind != kindFilter)
+                    continue;
+
+                //데이터의 수치를 획득
+                int value = 0;
+                int.TryParse(data[1].Trim(), out value);
+
+                //검증용
+                Console.WriteLine($"Create({kind}, {value}");
+
+                //Sample 객체를 생성하여 반환
+                yield return new Sample() { Kind = kind, Value = value };
+            }
+        }
     }
 }

@@ -1,0 +1,6 @@
+C:\Study\Git\LinqMagic\Part2\CH01\CH01_Exes\List1_1\bin\Debug\List1_1.exe.config
+C:\Study\Git\LinqMagic\Part2\CH01\CH01_Exes\List1_1\bin\Debug\List1_1.exe
+C:\Study\Git\LinqMagic\Part2\CH01\CH01_Exes\List1_1\bin\Debug\List1_1.pdb
+C:\Study\Git\LinqMagic\Part2\CH01\CH01_Exes\List1_1\obj\Debug\List1_1.csprojResolveAssemblyReference.cache
+C:\Study\Git\LinqMagic\Part2\CH01\CH01_Exes\List1_1\obj\Debug\List1_1.exe
+C:\Study\Git\LinqMagic\Part2\CH01\CH01_Exes\List1_1\obj\Debug\List1_1.pdb
